@@ -1,0 +1,13 @@
+HOISTING -- is has to do with the pass system in JS
+		Js goes over the function twice
+			The first pass finds all the declarations and puts them to the top of the func.
+			The first pass assigns the value to the declared variables
+				So here x = undefined.
+					function (){
+						y = 10;
+						return y;
+						x = 10;
+					}
+The module pattern
+	closures and private data.
+	separating private data in the form of vars from the public parts.

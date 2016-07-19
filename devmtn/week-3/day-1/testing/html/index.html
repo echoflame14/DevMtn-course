@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+  <head>
+    <title>Testing Testing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container" ng-init="names=['me','you','otherguy']">
+      <h3>looping with the ng-repeat directive</h3>
+      <input type="text" name="name" value="" ng-model="name">
+      <h2>{{name}}</h2>
+      <ul>
+        <li ng-repeat="name in names">{{ name }}</li>
+      </ul>
+    </div>
+  </body>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+</html>

@@ -1,0 +1,8 @@
+.box{
+	width:50%;
+	height:50vh;
+	background-color: red;
+}
+.hidden{
+	display: none;
+}

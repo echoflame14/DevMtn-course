@@ -1,0 +1,31 @@
+
+BEST PRACTICES FOR JS
+
+obj non-plural nouns
+		  (var person = {};)
+
+arrays end with an s
+		  (var fruits = [];)
+
+functions start with a verb
+		  (var getThis = function)
+
+vocab words
+		  declare
+					make a box
+		  assign
+					put x in the box
+		  null
+					intentionally nothing
+					(someone assigned it to null)
+		  undefined
+					unassigned
+
+		  truthy any value that when converted to a Boolean will = true
+					 number
+					 string
+		  falsey = any val that when converted to a boolean = FALSE (nan, null, undefined, 0, "", false)
+
+
+Keey your code DRY* (DONT REPEAT YOURSELF!!!) reUse code
+	Use functions eh!!!

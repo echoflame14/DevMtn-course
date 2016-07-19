@@ -1,0 +1,10 @@
+body {
+  background: #e2e2e2; }
+
+#todoApp li {
+  cursor: pointer; }
+#todoApp li.done {
+  text-decoration: line-through;
+  color: red; }
+
+/*# sourceMappingURL=styles2.css.map */

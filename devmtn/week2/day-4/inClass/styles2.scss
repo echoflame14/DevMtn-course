@@ -1,0 +1,15 @@
+// colors
+$offWhite:rgb(226, 226, 226);
+
+body{
+	background:$offWhite;
+}
+#todoApp{
+	li{
+		cursor:pointer;
+	}
+	li.done{
+		text-decoration:line-through;
+		color:red;
+	}
+}

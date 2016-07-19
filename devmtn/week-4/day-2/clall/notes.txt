@@ -1,0 +1,34 @@
+learning directives
+	anything that starts with ng- is a directive
+
+	Reasons to use directives
+		1- RE USE HTML
+				These Directives will inject html
+
+					.directive("myDirective", function(){
+							return {
+								tepmlate: Name: {{name}} Address {{user.address}};
+							}
+						};
+
+				OR USE THIS
+
+				.directive('other', function(){
+					return{
+						templateUrl: "other.html",
+						scope: {},
+						controller: function($scope){
+							
+						};
+					};
+				});
+		2-
+
+
+
+
+
+
+
+	We are gonna make custom directives
+		directives MUST return an object ALWAYS
